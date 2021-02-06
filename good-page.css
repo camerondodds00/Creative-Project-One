@@ -1,0 +1,60 @@
+.cover {
+  margin-left: 20 px;
+  margin-right: 20 px;
+  margin-top: 20 px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.topSection {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "picture picture text-block1"
+        "pictue picture text-block2";
+}
+
+
+.picture {
+    color: #F27D42;
+    grid-area: picture;
+    min-height: 400px;
+    background: white url(music-disk.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+cts {
+    background: var(--yellow);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .text-block1 {
+      grid-area: text-block1;
+  }
+
+  .text-block2 {
+    grid-area: text-block2;
+  }
+
+  /* Image Grid */
+  .portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    text-align: center;
+  }
+
+  .image img {
+    width: auto;
+    max-height: 240px;
+  }

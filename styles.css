@@ -1,0 +1,329 @@
+/*desktop */
+@media only screen and (min-width: 961px) {
+/* Menu */
+nav.bg-light {
+  background-color: #022449 !important;
+}
+
+/*.navbar.navbar-expand-lg.navbar-light.bg-light {
+  color: #yellow !important;
+}
+*/
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #55BDCA !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #F27D42 !important;
+}
+
+body.background {
+  background-color: #C8EFF4;
+}
+
+.footer {
+   position: fixed;
+   width: 200px;
+   bottom: 0;
+   background-color: #022449;
+   color: white;
+   text-align: center;
+}
+
+a.footer {
+  color: white;
+}
+
+a, a:hover, a:active, a:visited {
+  color: white;
+}
+
+h1.center {
+  text-align: center;
+  color: #F27D42;
+}
+
+ul.repair {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.cover {
+  margin-left: 20 px;
+  margin-right: 20 px;
+  margin-top: 20 px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.topSection {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "picture picture text-block1"
+        "pictue picture text-block2";
+}
+
+
+.picture {
+    color: #F27D42;
+    grid-area: picture;
+    min-height: 400px;
+    background: white url(music-disk.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+cts {
+    background: var(--yellow);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .text-block1 {
+      grid-area: text-block1;
+  }
+
+  .text-block2 {
+    grid-area: text-block2;
+  }
+
+  /* Image Grid */
+  .portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    text-align: center;
+  }
+
+  .image img {
+    width: auto;
+    max-height: 240px;
+  }
+}
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #55BDCA !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #F27D42 !important;
+  }
+
+  body.background {
+    background-color: #C8EFF4;
+  }
+
+  .footer {
+     position: fixed;
+     width: 200px;
+     bottom: 0;
+     background-color: #022449;
+     color: white;
+     text-align: center;
+  }
+
+  a.footer {
+    color: white;
+  }
+
+  a, a:hover, a:active, a:visited {
+    color: white;
+  }
+
+  h1.center {
+    text-align: center;
+    color: #F27D42;
+  }
+
+  ul.repair {
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  .cover {
+    margin-left: 20 px;
+    margin-right: 20 px;
+    margin-top: 20 px;
+      display: grid;
+      grid-gap: 20px;
+  }
+
+  .topSection {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-areas:
+          "picture picture text-block1"
+          "pictue picture text-block2";
+  }
+
+
+  .picture {
+      color: #F27D42;
+      grid-area: picture;
+      min-height: 400px;
+      background: white url(music-disk.jpg);
+      background-size: cover;
+      background-position: bottom right;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+  }
+
+  cts {
+      background: var(--yellow);
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      align-content: center;
+    }
+
+    .text-block1 {
+        grid-area: text-block1;
+    }
+
+    .text-block2 {
+      grid-area: text-block2;
+    }
+
+    /* Image Grid */
+    .portfolio {
+      display: grid;
+      grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+      text-align: center;
+    }
+
+    .image img {
+      width: auto;
+      max-height: 240px;
+    }
+
+}
+
+/* phone */
+@media only screen and (max-width: 400px) {
+/* Menu */
+nav.bg-light {
+  background-color: #022449 !important;
+}
+
+/*.navbar.navbar-expand-lg.navbar-light.bg-light {
+  color: #yellow !important;
+}
+*/
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #55BDCA !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #F27D42 !important;
+}
+
+body.background {
+  background-color: #C8EFF4;
+}
+
+.footer {
+   position: fixed;
+   width: 200px;
+   bottom: 0;
+   background-color: #022449;
+   color: white;
+   text-align: center;
+}
+
+a.footer {
+  color: white;
+}
+
+a, a:hover, a:active, a:visited {
+  color: white;
+}
+
+h1.center {
+  text-align: center;
+  color: #F27D42;
+}
+
+ul.repair {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.cover {
+  margin-left: 20 px;
+  margin-right: 20 px;
+  margin-top: 20 px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.topSection {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "picture picture text-block1"
+        "pictue picture text-block2";
+}
+
+
+.picture {
+    color: #F27D42;
+    grid-area: picture;
+    min-height: 400px;
+    background: white url(music-disk.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+cts {
+    background: var(--yellow);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .text-block1 {
+      grid-area: text-block1;
+  }
+
+  .text-block2 {
+    grid-area: text-block2;
+  }
+
+  /* Image Grid */
+  .portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    text-align: center;
+  }
+
+  .image img {
+    width: auto;
+    max-height: 240px;
+  }
+}
